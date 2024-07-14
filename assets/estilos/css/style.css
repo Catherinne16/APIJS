@@ -1,0 +1,91 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    background: url('/assets/img/fondo.jpg') repeat;
+  }
+  
+  .contenedor {
+    width: 90%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8); /* Para hacer el fondo un poco translúcido */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  .titulo-principal {
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  .linea {
+    border: 1px solid #000000;
+ }
+  
+  .seccion {
+    padding-top: 20px;
+  }
+  
+  .formulario {
+    background-color: #6c757d;
+    padding: 40px;
+    border-radius: 10px;
+  }
+  
+  .texto-centro {
+    text-align: center;
+  }
+  
+  .texto-blanco {
+    color: #fff;
+  }
+  
+  .entrada {
+    width: 98%;
+    padding: 12px;
+    margin-top: 7px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+  
+  .margen-arriba {
+    margin-top: 20px;
+  }
+  
+  .seleccion {
+    width: 100%;
+    padding: 10px;
+    margin: 20px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .centro {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .boton {
+    background-color: #c5186e;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+ }
+  
+  .boton:hover {
+    background-color: #e241ad;
+  }
+  
+  .grafico {
+    padding-top: 40px;
+  }
+  
+  .formulario {
+    background-color: #000000;
+    padding: 40px;
+    border-radius: 10px;
+}

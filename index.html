@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+    <link rel="stylesheet" href="./assets/estilos/css/style.css"/>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <title>Conversor de monedas</title>
+  </head>
+  <body class="titulo">
+    <div class="contenedor">
+      <h1 class="titulo-principal">Conversor de moneda Nacional a Internacional</h1>
+      <hr class="linea"/>
+      <section class="seccion">
+        <form id="formulario" class="formulario">
+          <h2 class="texto-centro texto-blanco">Moneda:CLP</h2>
+          <input
+            id="valor"
+            class="entrada"
+            type="number"
+            value=""
+            min="0"
+            placeholder="Ingresa valor"
+          />
+          <h2 class="texto-centro texto-blanco margen-arriba">Moneda a convertir:</h2>
+          <select id="moneda" class="seleccion">
+            <option value="sin seleccion">Seleccionar tipo de moneda</option>
+            <option value="euro">Euros</option>
+            <option value="dolar">Dólares</option>
+          </select>
+          <div class="centro">
+            <button class="boton" type="submit">Convertir</button>
+          </div>
+          <div class="texto-centro texto-blanco">
+            <p id="resultado">Sin resultado</p>
+          </div>
+        </form>
+      </section>
+      <section class="grafico">
+        <canvas id="chart"></canvas>
+      </section>
+    </div>
+    <script src="./assets/estilos/js/script.js"></script>
+  </body>
+</html>
